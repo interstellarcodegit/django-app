@@ -1,0 +1,208 @@
+{% load static %}
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<link href="{% static 'bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'get.css' %}">
+
+
+  </head>
+  <body>
+    <header>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">	<img class="img-logo"src="{% static 'ecom/cart.png'%}"> BranShop</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="ecom.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="featured.html">Featured</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="" >Offers</a>
+           <li class="nav-item ">
+          <a class="nav-link " href="#" >About</a>
+        </li>
+        <button class=" modbtn btn btn-warning"><a href="login.html" >
+Login
+</a><img class="login-img" src="{% static 'ecom/cart.png'%}">
+        </button>
+      </ul>
+
+    </div>
+  </nav>
+      </header>
+<style>
+ </style>
+<br>
+<hr>
+
+
+<div class ="row">
+<form class='col' method="post" >
+    <select name="prod-category">
+      <option >Laptops</option>
+       <option>KitchenWare</option>
+       <option>EarthenWare</option>
+      <option>Building</option>
+       <option>Gardenware</option>
+       <option>Sanitaryware</option>
+    </select>
+</form>
+    
+ <form class="col form-inline mt-2 mt-md-0">
+        <input class= "mod-search form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+</div>
+    <hr>
+<p class="text-success">
+
+  55 products</p>
+    <hr>
+
+
+<div class="row-wrap">
+
+
+<div class="row">
+  <div class="col">
+
+    <img class="img-prod" src="{% static 'ecom/d.jpg'%}"><div class="description">
+
+
+    <h4 class="text-info">
+     brainstorm Pc
+    </h4>
+    <s class="text-warning">was $299</s> <h5>
+    now $200
+    </h5>
+    <button style="" class="btn btn-outline-success" >
+      Add to Cart
+    </button><a href="#"  class=" btn btn-outline-danger  view-link">View</a>
+    </div>
+    </div>
+  <div class="col">
+    <img class="img-prod" src="{% static 'ecom/e.jpg'%}"><div class="description">
+
+
+    <h4 class="text-info">
+      Lenovo Pc
+    </h4>
+    <s class="text-warning">was $299</s> <h5>
+    now $200
+    </h5>
+    <button style="" class="btn btn-outline-success" >
+      Add to Cart
+    </button><a href="#"  class=" btn btn-outline-danger  view-link">View</a>
+    </div>
+    </div>
+      <div class="col">
+    <img class="img-prod" src="{% static 'ecom/c.jpg'%}"><div class="description">
+
+
+    <h4 class="text-info">
+      origin Pc
+    </h4>
+    <s class="text-warning">was $299</s> <h5>
+    now $200
+    </h5>
+    <button style="" class="btn btn-outline-success" >
+      Add to Cart
+    </button><a href="#"  class=" btn btn-outline-danger  view-link">View</a>
+        </div>
+    </div>
+</div>
+
+<div class="row-wrap">
+
+
+<div class="row">
+  <div class="col">
+
+    <img class="img-prod" src="{% static 'ecom/f.jpg'%}"><div class="description">
+
+
+    <h4 class="text-info">
+     brainstorm Pc
+    </h4>
+    <s class="text-warning">was $299</s> <h5>
+    now $200
+    </h5>
+    <button style="" class="btn btn-outline-success" >
+      Add to Cart
+    </button><a href="#"  class=" btn btn-outline-danger  view-link">View</a>
+    </div>
+    </div>
+  <div class="col">
+    <img class="img-prod" src="{% static 'ecom/a.jpg'%}"><div class="description">
+
+
+    <h4 class="text-info">
+      Lenovo Pc
+    </h4>
+    <s class="text-warning">was $299</s> <h5>
+    now $200
+    </h5>
+    <button style="" class="btn btn-outline-success" >
+      Add to Cart
+    </button><a href="#"  class=" btn btn-outline-danger  view-link">View</a>
+
+    </div>
+    </div>
+      <div class="col">
+    <img class="img-prod" src="{% static 'ecom/g.jpg'%}"><div class="description">
+
+
+    <h4 class="text-info">
+      origin Pc
+    </h4>
+    <s class="text-warning">was $249</s> <h5>
+    now $185
+    </h5>
+    <button style="" class="btn btn-outline-success" >
+      Add to Cart
+    </button><a href="#"  class=" btn btn-outline-danger  view-link">View</a>
+        </div>
+    </div>
+</div>
+
+</div>
+    <br>
+    <hr>
+
+      <footer class="footer">
+
+           <div class="navfoot">
+     <ul>
+      <li><a><i class="fa fa-facebook"></i>facebook</a></li>
+      <li><i class="fa fa-instagram"></i><a>Instagram</a></li>
+      <li><i class="fa fa-linkedin"></i><a>Linkedin</a></li>
+      <li><i class="fa fa-github"></i><a>Github</a></li>
+     </ul>
+       </div>
+
+
+         <p class='last' >Brainstorm Traders   ©2020</p>
+      
+
+
+
+
+      </footer>
+
+       <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/js/bootstrap.min.js"></script>
+</body></html>
